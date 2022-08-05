@@ -1,0 +1,67 @@
+.current-issues{
+    max-height: 308px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: left;
+}
+.current-issues::-webkit-scrollbar-track
+{
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+    background-color: #CCCCCC;
+}
+
+.current-issues::-webkit-scrollbar
+{
+  width: 10px;
+    background-color: #F5F5F5;
+}
+
+.current-issues::-webkit-scrollbar-thumb
+{
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(90deg,
+  rgba(0, 0, 0, 1) 0%,
+  rgba(0, 0, 0, 1) 25%,
+  transparent 100%,
+  rgba(0, 0, 0, 1) 75%,
+  transparent)
+}
+                                                                                                                
+.current-issues p {
+    text-align: left;
+    color: #000;
+}
+
+.current-issues p span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.current-issues p span,
+.current-issues .description-text {
+    color: #;
+}
+
+.current-issues .indiv-issue {
+    position: relative;
+}
+
+.current-issues .close-issue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    margin-top: 0;
+}
+
+.current-issues hr {
+    border: none;
+    background: #000;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
