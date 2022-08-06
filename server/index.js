@@ -22,10 +22,9 @@ const requestLogger = (request, response, next) => {
 app.use(express.json())
 app.use(requestLogger)  
 app.use(cors())
-app.use(express.static('../client/build'))
+app.use(express.static('client/build'))
 
-
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
       res.json({ message: "Hello from server!" });
 });
 
